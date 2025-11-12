@@ -14,3 +14,8 @@ interface Product {
     category: string;
     price: number;
 }
+
+interface CartItem {
+    product: Product;
+    quantity: number;
+}

@@ -28,3 +28,7 @@ body {
     color: var(--color-rose-900);
     font-family: "Red Hat Text", sans-serif;
 }
+
+.small-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
